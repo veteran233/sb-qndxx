@@ -40,7 +40,8 @@ namespace qndxx
                 MessageBox.Show("输入框不能为空");
             else
             {
-                string filename = "http://dxx.wwwtop.top/dxx_video?a=" + textBox1.Text + "&b=" + textBox2.Text + "&c=2&d=1";
+                //string filename = "http://dxx.wwwtop.top/dxx_video?a=" + textBox1.Text + "&b=" + textBox2.Text + "&c=2&d=1";
+                string filename = "http://sv.cyol.com/h5mv/" + textBox1.Text + "dxx" + textBox2.Text + ".mp4";
 
                 System.Diagnostics.Process.Start(filename);
             }
